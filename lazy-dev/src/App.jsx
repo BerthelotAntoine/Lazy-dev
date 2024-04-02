@@ -1,5 +1,3 @@
-import Filter from "./components/Filter/Filter";
-import Description from "./components/Description/Description";
 import CardList from "./components/CardList/CardList";
 
 import "./App.css";
@@ -86,12 +84,15 @@ const itemList = [
 ];
 
 function App() {
+  const items = {
+    name:
+  }
   return (
     <>
-      <Filter />
+      {/*  <Filter /> */}
       <div>
-        <CardList />
-        <Description />
+        <CardList items={itemList} />
+        {/*  <Description /> */}
       </div>
     </>
   );
