@@ -1,9 +1,9 @@
 import Card from "../Card/Card";
 
-function CardList({ items }) {
+function CardList({ name, price, image }) {
   return (
-    <div>
-      <Card items={items} />
+    <div className="cardList">
+      <Card name={name} price={price} image={image} />
     </div>
   );
 }

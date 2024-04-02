@@ -1,10 +1,9 @@
-function Card({ items }) {
-  console.log(items);
+function Card({ name, price, image }) {
   return (
     <div>
-      <img src={items.image} alt={items.name} />
-      <h2>{items.name}</h2>
-      <p>{items.price}</p>
+      <img src={image} alt={name} className="imgCard" />
+      <h2 className="titleCard">{name}</h2>
+      <p className="priceCard">{price}</p>
     </div>
   );
 }
