@@ -1,5 +1,6 @@
 import CardList from "./components/CardList/CardList";
-
+import Filter from "./components/Filter/Filter";
+import { useState } from "react";
 import "./App.css";
 
 const itemList = [
@@ -84,9 +85,17 @@ const itemList = [
 ];
 
 function App() {
+  const [itemCategorie, setItemCategorie] = useState("");
+
   return (
     <>
-      {/*  <Filter /> */}
+      <nav>
+        <Filter
+          itemCategorie={itemCategorie}
+          setitemCategorie={setItemCategorie}
+          itemList={itemList[itemCategorie]}
+        />
+      </nav>
       <div className="BoxCardList">
         {itemList &&
           itemList.map((s) => (
