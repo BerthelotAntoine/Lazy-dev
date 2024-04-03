@@ -65,6 +65,7 @@
   border-radius: 15px;
   background-color: aqua;
   width: 15em;
+  color: black;
 }
 
 .priceCard{
@@ -74,5 +75,46 @@
 
 .titleCard{
   text-decoration: underline;
+}
+nav {
+  padding: 2em 0;
+  background-color: rgb(255, 48, 227);
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px red; 
+
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+nav div button {
+  background-color: lightgreen;
   color: black;
+  border: 3px solid gold;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.description {
+  border: 4px solid gold;
+  box-shadow: 10px 10px 10px red;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  border-radius: 15px;
+  background-color: aqua;
+  width: 15em;
+  color: black;
+  min-width: 30%;
+}
+
+.description .imgCard {
+  margin-bottom: 5em;
+  height: 600px;
 }
