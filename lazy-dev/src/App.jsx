@@ -6,7 +6,7 @@ import "./App.css";
 const itemList = [
   {
     name: "Peignoir de luxe",
-    price: "99.99€",
+    price: "99.99 €",
     image: "../src/assets/peignoir.jpg",
     description:
       "Un magnifique peignoir de luxe pour coder comme dans son lit !",
@@ -14,7 +14,7 @@ const itemList = [
   },
   {
     name: "Hoodie de hacker",
-    price: "0.001₿",
+    price: "0.001 ₿",
     image: "../src/assets/hoodie.jpg",
     description:
       "Un super pull à capuche au couleur de la matrice ! Pour coder comme dans les films tout en protégeant tes données ! ",
@@ -22,7 +22,7 @@ const itemList = [
   },
   {
     name: "Chausson en moumoute",
-    price: "39.99€",
+    price: "39.99 €",
     image: "../src/assets/chaussons.png",
     description:
       "Des chaussons tellement confortable que vous n'allez jamais vous arrêter de coder !",
@@ -30,7 +30,7 @@ const itemList = [
   },
   {
     name: "Casque de reducteur de bruit",
-    price: "119.89€",
+    price: "119.89 €",
     image: "../src/assets/headphones.jpg",
     description:
       "Un casque hightech qui créer une bulle autour de vous pour plus de flow lors de vos session coding en toute tranquilité (pour oublier vos enfants, vos amis et votre famille!) ",
@@ -38,7 +38,7 @@ const itemList = [
   },
   {
     name: "Lunettes anti-mal de crâne",
-    price: "69.99€",
+    price: "69.99 €",
     image: "../src/assets/lunettes.jpg",
     description:
       "Une monture faites de paracétamol et ses deux verres hightech qui vous protége lors de longue session de coding",
@@ -46,7 +46,7 @@ const itemList = [
   },
   {
     name: "Port USB chauffant",
-    price: "19.99€",
+    price: "19.99 €",
     image: "../src/assets/chauffe-cafe-small.png",
     description:
       "Café, thé, infusion, soda ou boisson énergisante: gardez votre boisson au chaud !!",
@@ -54,7 +54,7 @@ const itemList = [
   },
   {
     name: "Lampe luminothérapie",
-    price: "175.65€",
+    price: "175.65 €",
     image: "../src/assets/lampe.png",
     description:
       "Sans sortir de votre bureau, gardez un teint radieux et un taux de vitamine D optimal",
@@ -62,7 +62,7 @@ const itemList = [
   },
   {
     name: "Statuette d'Ayoub connectée",
-    price: "999.99₿",
+    price: "999.99 ₿",
     image: "../src/assets/statuette.png",
     description:
       "Bien mieux qu'une IA de coding, avec son choix de plusieurs phrases( ex : Arrête de coder , qu'est ce que tu veux faire ?), ils vous encourage sans vous donner la réponse <3 ",
@@ -70,14 +70,14 @@ const itemList = [
   },
   {
     name: "AlgoritMator",
-    price: "5€/mois",
+    price: "5 € /mois",
     image: "../src/assets/logo-algo.png",
     description: "Cette aplication vous aidera à résoudre vos algorithme",
     categorie: "Application",
   },
   {
     name: "EasyPressReview",
-    price: "Gratuit/mois",
+    price: "Gratuit /mois",
     image: "../src/assets/logo-epr.png",
     description: "Vous aidera à passer un vendredi après-midi plus simple",
     categorie: "Application",
